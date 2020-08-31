@@ -1,0 +1,13 @@
+{
+  "name": "alexa-skill-ready",
+  "version": "1.0.0",
+  "description": "To create alexa skill",
+  "main": "src/index.js",
+  "repository": "https://github.com/h0ms0n/alexa-skill-ready.git",
+  "author": "h0ms0n",
+  "license": "MIT",
+  "dependencies": {
+    "ask-sdk-core": "^2.9.0",
+    "ask-sdk-model": "^1.29.0"
+  }
+}
