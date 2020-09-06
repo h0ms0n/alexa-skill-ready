@@ -21,7 +21,7 @@ npm install
 zip -r ./target/alexa-sample.zip *.js node_modules
 ```
 
-### （任意）Lambdaへdeploy
+### コマンドでLambdaへdeploy(任意)
 ```bash
 aws lambda update-function-code --function-name $yourFunctionName --zip-file fileb://target/alexa-sample.zip --profile $yourProfileName --region $yourFunctionRegion
 ```
